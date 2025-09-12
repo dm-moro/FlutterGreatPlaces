@@ -15,6 +15,7 @@ class PlacesListScreen extends StatelessWidget {
               Navigator.of(context).pushNamed(AppRoutes.PLACE_FORM);
             }, 
             icon: Icon(Icons.add),
+            color: Colors.white,
           )
         ],
       ),
